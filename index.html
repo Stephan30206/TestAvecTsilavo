@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ELIA Andrimaitantsoa Stéphan - Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
 </head>
 <body>
 
@@ -161,12 +160,6 @@
           <button type="submit" class="btn btn-primary">Envoyer</button>
         </form>
       </div>
-      <div class="contact-info">
-        <h3>Coordonnées</h3>
-        <p>📧 elia.a@zurcher.edu.mg</p>
-        <p>📱 +261 38 46 195 16</p>
-        <p>📍 Sambaina, Antsirabe</p>
-      </div>
     </div>
   </section>
 
@@ -176,24 +169,6 @@
     </div>
   </footer>
 
-  <script>
-    const heroContent = document.getElementById('heroContent');
-    
-    window.addEventListener('scroll', function() {
-      const scrollY = window.scrollY;
-      const opacity = Math.max(1 - scrollY / 500, 0);
-      const transform = `translateY(${scrollY * 0.3}px)`;
-      
-      heroContent.style.opacity = opacity;
-      heroContent.style.transform = transform;
-    });
-
-    function scrollToElement(id) {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  </script>
+  
 </body>
 </html>
