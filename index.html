@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ELIA Andrimaitantsoa Stéphan - Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  
+
 </head>
 <body>
 
@@ -16,9 +16,9 @@
       </div>
       <nav class="nav">
         <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#chatbox">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -47,14 +47,18 @@
           </p>
           
           <div class="hero-buttons">
-            <button class="btn btn-primary" onclick="scrollToElement('projects')">
-              View My Work
+            <button class="btn btn-primary">
+              Contact me
             </button>
             <a href="Blue Simple Professional CV Resume.pdf" download class="btn btn-secondary">
               <i class="fas fa-download"></i> Download CV
             </a>
-            
           </div>
+          <div class="hero-image">
+            <img src="./image/Typography Design 3D Model (HD).png" alt="" width="120" height="100">
+            <img src="./image/Web Ads (HD).PNG" alt="" width="120" height="100">
+            <img src="./image/Web Design (HD).png" alt="" width="120" height="100">
+          </div><br><br>          
         </div>
         
         <div class="hero-image-container">
@@ -65,110 +69,169 @@
             />
           </div>
           <div class="image-glow"></div>
-        </div>
+        </div>  
       </div>
-      
-      <div class="scroll-indicator">
-        <svg 
-          width="24" 
-          height="24" 
-          viewBox="0 0 24 24" 
-          fill="none" 
-          stroke="currentColor" 
-          stroke-width="2" 
-          stroke-linecap="round" 
-          stroke-linejoin="round"
-        >
-          <line x1="12" y1="5" x2="12" y2="19"></line>
-          <polyline points="19 12 12 19 5 12"></polyline>
-        </svg>
+      <div class="hero-paragraph">
+        <p><strong>En tant que concepteur web, je <br>me spécialise dans la création <br>d'expériences numériques <br>exceptionnelles et percutantes.</strong></p>
+      </div><br>
+      <div class="intro">
+        <p>
+          Je m'appelle <strong>Andrimaitantsoa Elia Stéphan</strong>, mais vous pouvez m'appeler <strong>Stéphan</strong><br>
+          Explorez avec moi l'univers où la précision rencontre la créativité, et découvrez comment je peux donner vie à vos idées avec finesse et expertise.
+        </p>
+        <hr>
       </div>
     </div>
   </section>
-
-  <section id="projects" class="projects-section">
-    <div class="projects-container">
-      <h2 class="section-title">Mes Projets</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-image">
-            <img src="/image/image3.jpg" alt="Projet 1" loading="lazy">
-          </div>
-          <div class="project-info">
-            <h3>Projet 1</h3>
-            <p>Technologies utilisées : HTML/CSS, JavaScript</p>
-            <p>Objectif : Développement d'une application web responsive</p>
-            <a href="#" class="btn btn-primary">Voir le détail</a>
-          </div>
-        </div>
-        
-        <div class="project-card">
-          <div class="project-image">
-            <img src="/image/image1.jpg" alt="Projet 2" loading="lazy">
-          </div>
-          <div class="project-info">
-            <h3>Projet 2</h3>
-            <p>Technologies utilisées : React, Node.js</p>
-            <p>Objectif : Création d'une interface utilisateur moderne</p>
-            <a href="#" class="btn btn-primary">Voir le détail</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <section id="skills" class="skills-section">
     <div class="skills-container">
       <h2 class="section-title">Mes Compétences</h2>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <i class="fas fa-code"></i>
-          <h3>Développement Web</h3>
-          <p>HTML5, CSS3, JavaScript, React</p>
+      <div class="services-section">
+        <div class="service-card">
+          <div class="icon">💻</div>
+          <h3>Web Development</h3>
+          <p>Building responsive and scalable web applications using modern technologies and frameworks.</p>
         </div>
-        <div class="skill-card">
-          <i class="fas fa-palette"></i>
-          <h3>Design</h3>
-          <p>UI/UX, Figma, Adobe XD</p>
+        <div class="service-card">
+          <div class="icon">🧩</div>
+          <h3>UI/UX Design</h3>
+          <p>Creating intuitive and engaging user interfaces with a focus on user experience and accessibility.</p>
         </div>
-        <div class="skill-card">
-          <i class="fas fa-database"></i>
-          <h3>Base de Données</h3>
-          <p>MySQL, MongoDB</p>
+        <div class="service-card">
+          <div class="icon">📱</div>
+          <h3>Mobile Development</h3>
+          <p>Developing cross-platform mobile applications that deliver seamless user experiences.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🗄️</div>
+          <h3>Database Design</h3>
+          <p>Architecting efficient and scalable database solutions for complex applications.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">☁️</div>
+          <h3>Cloud Solutions</h3>
+          <p>Implementing and managing cloud infrastructure for optimal performance and reliability.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🌐</div>
+          <h3>API Development</h3>
+          <p>Building robust and secure APIs that power modern applications.</p>
         </div>
       </div>
     </div>
   </section>
-
-  <section id="contact" class="contact-section">
-    <div class="contact-container">
-      <h2 class="section-title">Contactez-moi</h2>
-      <div class="contact-form">
-        <form>
-          <div class="form-group">
-            <label>Nom</label>
-            <input type="text" name="name" required>
-          </div>
-          <div class="form-group">
-            <label>Email</label>
-            <input type="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label>Message</label>
-            <textarea name="message" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="footer-content">
-      <p>© 2025 ELIA Andrimaitantsoa Stéphan. Tous droits réservés.</p>
-    </div>
-  </footer>
-
   
+  <section class="skills-section">
+    <h2 class="skills-title">02. <span>Skills</span></h2>
+    <div class="skills-grid">
+      
+      <!-- Frontend -->
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Frontend Development</h3>
+          <span class="percentage">90%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 90%; background: #00e0ff;"></div>
+        </div>
+        <div class="tags">
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>Next.js</span>
+        </div>
+      </div>
+  
+      <!-- Backend -->
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Backend Development</h3>
+          <span class="percentage">85%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 85%; background: #ff6f3c;"></div>
+        </div>
+        <div class="tags">
+          <span>Node.js</span>
+          <span>Python</span>
+          <span>Java</span>
+        </div>
+      </div>
+  
+      <!-- Cloud & DevOps -->
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Cloud & DevOps</h3>
+          <span class="percentage">80%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 80%; background: linear-gradient(to right, #5a9fff, #86efac);"></div>
+        </div>
+        <div class="tags">
+          <span>AWS</span>
+          <span>Docker</span>
+          <span>CI/CD</span>
+        </div>
+      </div>
+  
+      <!-- Database -->
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Database</h3>
+          <span class="percentage">85%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 85%; background: linear-gradient(to right, #b983ff, #6ccaff);"></div>
+        </div>
+        <div class="tags">
+          <span>PostgreSQL</span>
+          <span>MongoDB</span>
+          <span>Redis</span>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section id="chatbox">
+    <a href="#" class="chat-toggle-btn">✖</a>
+  
+    <div class="chatbox">
+      <div class="chat-header">
+        <h2>Salut 👋</h2>
+        <p>
+          Besoin d'aide ? Recherchez dans mon centre d'aide pour trouver des réponses ou commencez une conversation :
+        </p>
+      </div>
+  
+      <div class="chat-content">
+        <div class="search-box">
+          <input type="text" placeholder="Rechercher des réponses">
+          <button>🔍</button>
+        </div>
+        <button class="new-convo">➤ Nouvelle conversation</button>
+      </div>
+  
+      <div class="chat-footer">
+        🦎 Add free <strong>live chat</strong> to your site
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="social">
+        <h3>On se connecte sur</h3>
+        <a href="#">WhatsApp</a>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+    </div>
+    <div class="contact">
+        <h3>Adresse mail</h3>
+        <p><a href="mailto:houbby22@gmail.com">elia.a@zurcher.edu.mg</a></p>
+        <h3>Téléphone</h3>
+        <p><a href="tel:+261343059815">+261 38 46 195 16</a></p>
+    </div>
+  </footer>  
 </body>
 </html>
